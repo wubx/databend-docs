@@ -103,6 +103,7 @@ services:
       name = 'databend'
       auth_type = 'double_sha1_password'
       # password: databend
+      # 生成方式: echo -n "your_password" | sha1sum | cut -d' ' -f1 | xxd -r -p | sha1sum
       auth_string = '3081f32caef285c232d066033c89a78d88a6d8a5'
 
       [log]
