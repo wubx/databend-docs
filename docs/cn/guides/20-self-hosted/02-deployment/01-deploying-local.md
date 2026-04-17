@@ -103,7 +103,7 @@ services:
       name = 'databend'
       auth_type = 'double_sha1_password'
       # password: databend
-      auth_string = '3081f32caef285c232d066033c89a96d542d09d7'
+      auth_string = '3081f32caef285c232d066033c89a78d88a6d8a5'
 
       [log]
       [log.file]
